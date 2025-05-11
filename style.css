@@ -1,0 +1,77 @@
+/*Reset Default styles*/
+body,h1,h2,p,form{
+	margin: 0;
+	padding: 0;
+}
+/*Set the background color and text color*/
+body {
+	font-family: Arial,sans-serif;
+	background-color: white;
+	color: black;
+	line-height: 1.6;
+}
+/*Header styles*/
+header {
+	background-color: rebeccapurple;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+/*Section Style*/
+section {
+	margin: 20px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+}
+
+section h2 {
+	color: darkred;
+}
+
+/*Profile image */
+.profile-image{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin-top: 10px;
+}
+
+/*Form styles*/
+form label{
+	display: block;
+	margin: 5px 0 5px;
+}
+
+form input, form textarea{
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+form button{
+	background-color: rebeccapurple;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: darkred;
+}
+/*Footer styles*/
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color:black;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+
+}
